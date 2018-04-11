@@ -1,0 +1,26 @@
+{
+    "name": "js-mp3-example",
+    "version": "1.0.0",
+    "description": "js-mp3 example.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "example": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@gitlab.oifitech.com:web-frontend/js-mp3-example.git"
+    },
+    "keywords": [
+        "js-mp3"
+    ],
+    "author": "jacky.wu",
+    "license": "MIT",
+    "dependencies": {
+        "arraybuffer-to-buffer": "0.0.4",
+        "js-mp3": "git+ssh://git@gitlab.oifitech.com:web-frontend/js-mp3.git",
+        "speaker": "^0.4.1",
+        "wav": "^1.0.1",
+        "ws": "^5.1.1"
+    }
+}
