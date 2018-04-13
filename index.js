@@ -15,7 +15,10 @@ var pcm_ab = d.decode();
 console.log('Decode finished. Decoded wav file: ' + decodedFile);
 var b = arrayBufferToBuffer(pcm_ab);
 
-var fwriter = new wav.FileWriter(decodedFile);
+var nch = d.frame.header.numberOfChannels();
+var fwriter = new wav.FileWriter(decodedFile, {
+    channels: nch
+});
 fwriter.write(b);
 
 var file = fs.createReadStream(decodedFile);
