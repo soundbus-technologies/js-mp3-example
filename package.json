@@ -18,7 +18,7 @@
     "license": "MIT",
     "dependencies": {
         "arraybuffer-to-buffer": "0.0.4",
-        "js-mp3": "git+ssh://git@github.com:soundbus-technologies/js-mp3.git",
+        "js-mp3": "git+https://github.com/soundbus-technologies/js-mp3.git",
         "speaker": "^0.4.1",
         "wav": "^1.0.1",
         "ws": "^5.1.1"
